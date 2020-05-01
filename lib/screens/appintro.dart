@@ -61,7 +61,7 @@ class _AppIntroScreenState extends State<AppIntroScreen> {
             Column(
               children: <Widget>[
                 Container(
-                  height: MediaQuery.of(context).size.height - 200,
+                  height: MediaQuery.of(context).size.height - 100,
                   width: MediaQuery.of(context).size.width,
                   color: Colors.white,
                   child: PageView(
@@ -152,8 +152,8 @@ class _AppIntroScreenState extends State<AppIntroScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
-              width: 300,
-              height: 300,
+              width: 250,
+              height: 250,
               child: Center(
                 child: Image.asset(
                   image,
@@ -174,7 +174,7 @@ class _AppIntroScreenState extends State<AppIntroScreen> {
                     fontFamily: "SubstanceMedium"),
                 textAlign: TextAlign.center),
             SizedBox(
-              height: 30,
+              height: 20,
             ),
             Text(
               "$description",
